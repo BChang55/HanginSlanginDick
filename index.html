@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tillage</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.4/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.4/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+
+
+</head>
+
+<body>
+	<nav class="navbar navbar-static-top">
+	  	<div class="container-fluid">
+	    <div class="navbar-header">
+	     	<a class="navbar-brand" href="index.html"> <img id="navbar-logo" src="images/Tillage.png"> </a>
+	    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"></li>
+		      <li><a href="#">Land</a></li>
+		      <li><a href="#">Dashboard</a></li>
+		      <li><a href="#">Contact</a></li>
+		    </ul>
+	  	</div>
+	</nav>
+	<div>
+	<div id='map' style="margin-top:4.2%"></div>
+	<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoidGlsbGFnZWNvIiwiYSI6ImNpajJkb2dvejAwMGh1YmtwaWRkbm53cjUifQ.6k2zYN_S3dPvnl1LxS1kIg';
+		var map = new mapboxgl.Map({
+	    	container: 'map', // container id
+	    	style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
+	    	center: [-74.50, 40], // starting position
+	    	zoom: 9 // starting zoom
+		});
+	</script>
+	</div>
+</body>
+
+
+
+
+
+</html>
