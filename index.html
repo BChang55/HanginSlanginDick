@@ -24,40 +24,41 @@
 </head>
 
 <body>
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	  	<div class="container">
+	<nav class="navbar navbar-static-top">
+	  	<div class="container-fluid">
 	    <div class="navbar-header">
-	    	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	    	<span class="sr-only">Toggle navigation</span>
-	    	<span class="icon-bar"></span>
-	    	<span class="icon-bar"></span>
-	    	<span class="icon-bar"></span>
-	    	</button>
-	     <a class="navbar-brand" href="#"><img id="navbar-logo" src="images/tillage.png"></a>
+	     	<a class="navbar-brand" href="index.html"> <img id="navbar-logo" src="images/Tillage.png"> </a>
 	    </div>
-	    <div class="navbar-collapse collapse">
-		    <ul class="nav navbar-nav navbar-left">
+		    <ul class="nav navbar-nav">
 		      <li class="active"></li>
 		      <li><a href="#">Land</a></li>
 		      <li><a href="#">Dashboard</a></li>
 		      <li><a href="#">Contact</a></li>
 		    </ul>
 	  	</div>
-	</div>
-	</div>
+	</nav>
+	<div>
 
 
-	<div id='map' style="margin-top:10%"></div>
+
+
+	  <div class="overlay" class="boxsm"></div>
+
+	
+
+	<div id='map' style="margin-top:4.2%"></div>
 	<script>
 		mapboxgl.accessToken = 'pk.eyJ1IjoidGlsbGFnZWNvIiwiYSI6ImNpajJkb2dvejAwMGh1YmtwaWRkbm53cjUifQ.6k2zYN_S3dPvnl1LxS1kIg';
 		var map = new mapboxgl.Map({
 	    	container: 'map', // container id
 	    	style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
-	    	center: [-74.50, 40], // starting position
+	    	center: [-50, 40], // starting position
 	    	zoom: 9 // starting zoom
 		});
 	</script>
 	</div>
+
+
 </body>
 
 
