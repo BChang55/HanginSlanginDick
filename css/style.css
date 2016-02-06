@@ -29,9 +29,9 @@
 
  .overlay {
   position: fixed;
-  top: 10.5%;
+  top: 7%;
   right: 1%;
-  height: 88%;
+  height: 90%;
   width: 20%;
   z-index: 10;
   background-color: rgba(0,0,0,0.5);
