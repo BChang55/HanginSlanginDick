@@ -41,6 +41,20 @@
 		      <li><a href="#">Dashboard</a></li>
 		      <li><a href="#">Contact</a></li>
 		    </ul>
+		    <ul class="nav navbar-nav navbar-right">
+		      <li class="active"></li>
+<!--creating dropdown for stuff n stuff-->
+	    		 <div class="dropdown">
+  				<div class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="images/menu.png" id="navbar-button">
+  				<span class="caret"></span>
+  				</button>
+  				<ul class="dropdown-menu">
+			    <li><a href="#">info</a></li>
+			    <li><a href="#">stuff</a></li>
+			    <li><a href="#">other</a></li>
+  				</ul>
+				</div>
+		    </ul>
 	  	</div>
  	</div>
  	</div>
@@ -49,8 +63,14 @@
 <<<<<<< HEAD
   
 =======
-  	  <div class="overlay" class="boxsm"></div>
-  	  
+  	  <div class="overlay"></div>
+  	  <div class="boxmain"></div>
+  	  <div class="boxright"></div>
+  	  <div class="boxmid"></div>
+  	  <div class="boxleft"></div>
+  	  <div class="boxlowleft"></div>
+  	  <div class="boxlowright"></div>
+
 >>>>>>> origin/master
  	<div id='map' style="margin-top:0%"></div>
   	<script>
@@ -58,7 +78,7 @@
   		var map = new mapboxgl.Map({
 	    	container: 'map', // container id
 	    	style: 'mapbox://styles/mapbox/streets-v8', //stylesheet location
-	    	center: [-50, 40], // starting position
+	    	center: [-80, 40], // starting position
 	    	zoom: 9 // starting zoom
 		});
 	</script>
