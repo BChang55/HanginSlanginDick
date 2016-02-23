@@ -7,6 +7,8 @@
   z-index: 7;
  }
 
+
+
  #navbar-button{
  top: 1.5%;
  height: 5%;
@@ -97,5 +99,10 @@
   position: fixed;
   }
 
+.loginbut {
+color: #ffffff;
+background-color: #ffffff;
 
+
+}
 
