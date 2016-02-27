@@ -95,13 +95,64 @@
 		<!-- Insert Grid Menu Div here -->
 	</div>
 
-  	  <div class="overlay"></div>
-  	  <div class="boxmain"></div>
-  	  <div class="boxright"></div>
-  	  <div class="boxmid"></div>
-  	  <div class="boxleft"></div>
-  	  <div class="boxlowleft"></div>
-  	  <div class="boxlowright"></div>
+
+<!-- Welcome Block -->
+	  <div id="welcome-block" class="overlay">
+		<p class="heading-text text-center"> Welcome to Tillage! Click a parcel to view details! </p>
+		<img src="images/parcel-select.png">
+	  </div>
+	<!-- Get Your Free Trial Block -->
+	  <div id="trial-block" class="overlay">
+		<p class="heading-text text-center"> Receive your 14 day free trial now! </p>
+		<form role="form">
+			<div class="form-group">
+				<input type="text" class="form-control" id="first-name" placeholder="First Name">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="last-name" placeholder="Last Name">
+			</div>
+			<div class="form-group">
+				<input type="email" class="form-control" id="email" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" id="pwd" placeholder="Password">
+			</div>
+			<button type="submit" class="btn btn-default">Sign Up!</button>
+		</form>
+	  </div>
+	<!-- Free Trial or Subscription Block -->
+	<div id="subscribe-block" class="overlay">
+		<button class="btn btn-default">
+			<span class="button-text"> Free </span>
+			<span class="button-text">Trial </span>
+		</button>
+		<p class="heading-text text-center">--- or ---</p>
+		<button class="btn btn-default button-large">
+			<span class="button-text"> $15 /mo </span>
+			<span class="button-text"> Subscription </span>
+		</button>
+	</div>
+	<!-- Type Selection Block  -->
+	<div id="type-selection-block" class="overlay">
+		<button class="btn btn-default"> <span class="button-text"> grower </span> </button>
+		<button class="btn btn-default"> <span class="button-text"> absentee </span> <span class="button-text"> landowner </span> </button>
+		<button class="btn btn-default"> <span class="button-text"> investor </span> </button>
+		<button class="btn btn-default"> <span class="button-text"> broker </span> </button>
+		<button class="btn btn-default"> <span class="button-text"> other </span> </button>
+		
+		<br><br>
+		<button class="btn btn-default"> <span class="button-text"> NEXT STEP </span> </button>
+
+	</div>
+	<!-- Land Info Block -->
+	  <div id="land-block" class="overlay">
+		<div class="boxmain"></div>
+		<div class="boxright"></div>
+		<div class="boxmid"></div>
+		<div class="boxleft"></div>
+		<div class="boxlowleft"></div>
+		<div class="boxlowright"></div>
+	  </div>
 
 >>>>>>> origin/master
  	<div id='map' style="margin-top:0%"></div>

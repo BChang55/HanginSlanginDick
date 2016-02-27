@@ -7,6 +7,65 @@
   z-index: 7;
  }
 
+
+/* Heading text within Overlay Panels */
+ p.heading-text {
+	margin: 10px 10px 10px;
+	font-size: 45px;
+	font-family: fantasy;
+ }
+ 
+  .land-block , .trial-block, .subscribe-block, .type-selection-block {
+	display: none;
+ }
+ 
+ /* Form Entries in Overlay Panels */
+ .overlay .form-control {
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	border: 1px solid #088A01;
+ }
+ 
+  /* Form Buttons in Overlay Panels */
+ .overlay button {
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	border: 1px solid #088A01;
+	margin-top:5px;
+	margin-bottom:5px;
+ }
+ 
+ /* Text to be displayed within form buttons */
+ .button-text {
+	font-size: 20px;
+	display: block;
+ }
+ 
+   /* Form Buttons in Overlay Panels */
+ .overlay .button-large {
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	height: 20%;
+	border: 1px solid #088A01;
+ }
+
+	/* Class for vertically centering a div */
+ .centered-block {
+	margin-top: 25%;
+	margin-bottom: 25%;
+	height: 50%;
+ }
+ 
+ /* Centering Images in Overlay Panels */
+ .overlay img {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+ }
+ 
 /* Highlighting Grid Button when Grid is Active */
 .grid-button-active {
 	box-shadow: 0px 0px 8px #000;
@@ -14,6 +73,7 @@
 .grid-button-inactive {
 	box-shadow: none;
 }
+
 
  #navbar-button{
  top: 1.5%;
