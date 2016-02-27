@@ -76,11 +76,11 @@
 
 
  #navbar-button{
- top: 1.5%;
- height: 5%;
- /* position: fixed; */
- width: 3%;
- right: 8%;
+ top: 6px;
+ height: 40px;
+ position: fixed; 
+ width: 40px;
+ right: 30%;
  }
 
  .overlay {
@@ -182,6 +182,20 @@ background-color: #ffffff;
   position: fixed;
   }
 
+  .arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+  top: 6%;
+  right: 30%;
+  height: 5%;
+  width: 3%;
+  z-index: 25;
+  position: fixed;
+}
+
 .iconland{
   top: 12%;
   right: 38%;
@@ -215,6 +229,29 @@ background-color: #ffffff;
   box-shadow: 0px 0px 0px 0px black;
   z-index: 21;
   position: fixed;
+}
+#profilepic{
+ border-radius: 50px;
+ top: 6px;
+ height: 40px;
+ position: fixed; 
+ width: 40px;
+ right: 5%;
+ background-color: gray;
+ border: solid 1px black;
+z-index: 25
+}
+
+#alertbut{
+ border-radius: 50px;
+ top: 6px;
+ height: 40px;
+ position: fixed; 
+ width: 40px;
+ right: 10%;
+ border: solid 1px black;
+ z-index: 25
+}
 
 
 
