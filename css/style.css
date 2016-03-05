@@ -8,13 +8,79 @@
  }
 
 
+/* Heading text within Overlay Panels */
+ p.heading-text {
+	margin: 10px 10px 10px;
+	font-size: 45px;
+	font-family: fantasy;
+ }
+ 
+  .land-block , .trial-block, .subscribe-block, .type-selection-block {
+	display: none;
+ }
+ 
+ /* Form Entries in Overlay Panels */
+ .overlay .form-control {
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	border: 1px solid #088A01;
+ }
+ 
+  /* Form Buttons in Overlay Panels */
+ .overlay button {
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	border: 1px solid #088A01;
+	margin-top:5px;
+	margin-bottom:5px;
+ }
+ 
+ /* Text to be displayed within form buttons */
+ .button-text {
+	font-size: 20px;
+	display: block;
+ }
+ 
+   /* Form Buttons in Overlay Panels */
+ .overlay .button-large {
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	height: 20%;
+	border: 1px solid #088A01;
+ }
+
+	/* Class for vertically centering a div */
+ .centered-block {
+	margin-top: 25%;
+	margin-bottom: 25%;
+	height: 50%;
+ }
+ 
+ /* Centering Images in Overlay Panels */
+ .overlay img {
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+ }
+ 
+/* Highlighting Grid Button when Grid is Active */
+.grid-button-active {
+	box-shadow: 0px 0px 8px #000;
+}
+.grid-button-inactive {
+	box-shadow: none;
+}
+
 
  #navbar-button{
- top: 1.5%;
- height: 5%;
- position: fixed;
- width: 3%;
- right: 8%;
+ top: 6px;
+ height: 40px;
+ position: fixed; 
+ width: 40px;
+ right: 30%;
  }
 
  .overlay {
@@ -102,6 +168,97 @@
 .loginbut {
 color: #ffffff;
 background-color: #ffffff;
-
-
 }
+
+.gridnav {
+  border-radius: 10px;
+  top: 9%;
+  right: 15%;
+  width: 30%;
+  height: 80%;
+  background-color: white;
+  border: solid 1px black;
+  z-index: 20;
+  position: fixed;
+  }
+
+  .arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+  top: 6%;
+  right: 30%;
+  height: 5%;
+  width: 3%;
+  z-index: 25;
+  position: fixed;
+}
+
+.iconland{
+  top: 12%;
+  right: 38%;
+  width: 5%;
+  height: 10%;
+  background-color: green;
+  border: solid 1px black;
+  z-index: 21;
+  position: fixed;
+}
+
+.iconcontact{
+  background-image: url("../images/contact.png");
+  top: 12%;
+  right: 29%;
+  width: 5%;
+  height: 10%;
+  border: solid 1px black;
+  box-shadow: 0px 0px 0px 0px black;
+  z-index: 21;
+  position: fixed;
+}
+
+.icongear{
+  background-image: url("../images/cog.png");
+  top: 12%;
+  right: 20%;
+  width: 5%;
+  height: 10%;
+  border: solid 1px black;
+  box-shadow: 0px 0px 0px 0px black;
+  z-index: 21;
+  position: fixed;
+}
+#profilepic{
+ border-radius: 50px;
+ top: 6px;
+ height: 40px;
+ position: fixed; 
+ width: 40px;
+ right: 5%;
+ background-color: gray;
+ border: solid 1px black;
+z-index: 25
+}
+
+<<<<<<< HEAD
+}
+=======
+#alertbut{
+ border-radius: 50px;
+ top: 6px;
+ height: 40px;
+ position: fixed; 
+ width: 40px;
+ right: 10%;
+ border: solid 1px black;
+ z-index: 25
+}
+
+
+
+
+
+
+>>>>>>> refs/remotes/origin/master
