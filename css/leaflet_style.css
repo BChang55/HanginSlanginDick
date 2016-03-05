@@ -1,0 +1,75 @@
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-results{
+	background: #C6FF17;
+    border: 1px solid #999;
+    border-color: rgba(0,0,0,.4);	
+}
+.leaflet-control-mapbox-geocoder-results a, .leaflet-control-mapbox-geocoder-results span{
+	padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: left;
+    overflow: hidden;
+    color: rgb(6, 11, 249);
+    /* background-color: #A98888; */
+}
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-results {
+    background: #C6FF17;
+    border: 1px solid #999;
+    border-color: rgba(0,0,0,.4);
+    top: 26px;
+}
+.leaflet-bar a {
+    display: block;
+    /* background-color: #C6FF17; */
+}
+.leaflet-bar, .leaflet-control-layers {
+    background-color: #C6FF17;
+    border: 1px solid #999;
+    border-color: rgba(0,0,0,.4);
+    border-radius: 3px;
+    box-shadow: none;
+}
+.leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-wrap {
+    background: rgba(107, 107, 107, 0.53);
+    position: absolute;
+    border: 1px solid #000;
+    border-color: rgba(0,0,0,.4);
+    overflow: hidden;
+    left: 26px;
+    height: 28px;
+    /* width: 0; */
+    top: -1px;
+    border-radius: 0 3px 3px 0;
+    opacity: 0;
+    -webkit-transition: opacity 100ms;
+    -moz-transition: opacity 100ms;
+    -o-transition: opacity 100ms;
+    transition: opacity 100ms;
+    }
+  
+    .leaflet-container .leaflet-control-attribution {
+    /*background-color: rgba(255,255,255,.5);
+    margin: 0;
+    box-shadow: none;*/
+    display: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    /* color: inherit; */
+    color: #FFFFFF;
+}
+
+.text{
+	color: white;
+}
+
+.mapbox-logo-true {
+    background-repeat: no-repeat;
+    background-size: 61px 19px;
+    background-image: url(../images/TillageSmall.png)
+}
