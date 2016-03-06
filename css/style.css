@@ -1,80 +1,23 @@
-#navbar-logo {
-  height: 200%;
-  position: relative;
-  bottom: 40%;
-  left: 0%;
-  vertical-align: 20%;
-  z-index: 7;
- }
 
-
-/* Heading text within Overlay Panels */
- p.heading-text {
+/************************************
+*            General Styles         *
+************************************/
+p.heading-text { /* Heading text within Overlay Panels */
 	margin: 10px 10px 10px;
 	font-size: 45px;
 	font-family: fantasy;
- }
- 
-  .land-block , .trial-block, .subscribe-block, .type-selection-block {
-	display: none;
- }
- 
- /* Form Entries in Overlay Panels */
- .overlay .form-control {
-	margin-right: 10%;
-	margin-left: 10%;
-	width: 80%;
-	border: 1px solid #088A01;
- }
- 
-  /* Form Buttons in Overlay Panels */
- .overlay button {
-	margin-right: 30%;
-	margin-left: 30%;
-	width: 40%;
-	border: 1px solid #088A01;
-	margin-top:5px;
-	margin-bottom:5px;
- }
- 
- /* Text to be displayed within form buttons */
- .button-text {
+}
+.button-text { /* Text to be displayed within form buttons */
 	font-size: 20px;
 	display: block;
- }
- 
-   /* Form Buttons in Overlay Panels */
- .overlay .button-large {
-	margin-right: 30%;
-	margin-left: 30%;
-	width: 40%;
-	height: 20%;
-	border: 1px solid #088A01;
- }
-
-	/* Class for vertically centering a div */
- .centered-block {
+}
+.centered-block {/* Class for vertically centering a div */
 	margin-top: 25%;
 	margin-bottom: 25%;
 	height: 50%;
- }
- 
- /* Centering Images in Overlay Panels */
- .overlay img {
-	width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
- }
- 
-/* Highlighting Grid Button when Grid is Active */
-.grid-button-active {
-	box-shadow: 0px 0px 8px #000;
-}
-.grid-button-inactive {
-	box-shadow: none;
 }
 
-
+<<<<<<< HEAD
  #navbar-button{
  top: 6px;
  height: 40px;
@@ -85,6 +28,12 @@
  }
 
  .overlay {
+=======
+/************************************
+*     Side Panel General Styling    *
+************************************/
+.overlay {
+>>>>>>> origin/master
   position: fixed;
   top: 9%;
   right: 1%;
@@ -92,8 +41,51 @@
   width: 30%;
   z-index: 10;
   background-color: white;
-  }
+}
+.overlay img { /* Centering Images in Overlay Panels */
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
 
+.overlay .button-large { /* Form Buttons in Overlay Panels */
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	height: 20%;
+	border: 1px solid #088A01;
+}
+.overlay .form-control { /* Form Entries in Overlay Panels */
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	border: 1px solid #088A01;
+}
+.overlay button { /* Form Buttons in Overlay Panels */
+	margin-right: 30%;
+	margin-left: 30%;
+	width: 40%;
+	border: 1px solid #088A01;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+div#collapse-panel-button { /* "Collapse Panel" button tab */
+	border-top-left-radius: 4px;
+	background: url("../images/arrow-right.png");
+	background-size: 100%;
+	border: 1px solid #000;
+	border-bottom-left-radius: 4px;
+	position: fixed;
+	width: 20px;
+	top: 15%;
+	right: 31%;
+	height: 24px;
+	z-index:19;
+}
+
+/************************************
+*     Land-Info Side Panel          *
+************************************/
   .boxmain {
   top: 11%;
   right: 2%;
@@ -166,24 +158,25 @@
   position: fixed;
   }
 
-.loginbut {
-color: #ffffff;
-background-color: #ffffff;
-}
 
+/************************************
+*      Grid-Dropdown + Buttons      *
+************************************/
+div#grid-menu-popup {
+	display: none;
+}
 .gridnav {
   border-radius: 10px;
   top: 9%;
   right: 15%;
   width: 30%;
-  height: 80%;
+  height: 30%;
   background-color: white;
   border: solid 1px black;
   z-index: 20;
   position: fixed;
-  }
-
-  .arrow-up {
+}
+.arrow-up {
   width: 0; 
   height: 0; 
   border-left: 20px solid transparent;
@@ -196,64 +189,87 @@ background-color: #ffffff;
   z-index: 25;
   position: fixed;
 }
-
-.iconland{
-  top: 12%;
-  right: 38%;
-  width: 5%;
-  height: 10%;
+.grid-nav-button {
+  top: 20%;
+  width: 15%;
+  height: 80px;
+  background-color: gray;
+  border-radius: 50px;
+  border: solid 1px black;
+  z-index: 21;
+  position: absolute;
+  box-shadow: 2px 2px 0px 0px #444;
+}
+#iconland{
+  right: 77%;
   background-color: green;
-  border: solid 1px black;
-  z-index: 21;
-  position: fixed;
+}
+#icongear{
+  right: 54%;
+}
+#iconcnct{
+  right: 31%;
+}
+#iconhelp{
+  right: 8%;
 }
 
-.iconcontact{
-  background-image: url("../images/contact.png");
-  top: 12%;
-  right: 29%;
-  width: 5%;
-  height: 10%;
-  border: solid 1px black;
-  box-shadow: 0px 0px 0px 0px black;
-  z-index: 21;
-  position: fixed;
+/************************************
+*        Main Navbar Buttons        *
+************************************/
+.top-nav-button {
+ top: 8px;
+ height: 35px;
+ width: 35px;
+ position: fixed; 
+ z-index: 25
 }
-
-.icongear{
-  background-image: url("../images/cog.png");
-  top: 12%;
-  right: 20%;
-  width: 5%;
-  height: 10%;
-  border: solid 1px black;
-  box-shadow: 0px 0px 0px 0px black;
-  z-index: 21;
-  position: fixed;
+#grid-navbar-button{
+  right: 70px;
+}
+.grid-button-active { /* Highlighting Grid Button when Grid is Active */
+	box-shadow: 0px 0px 12px #000;
+}
+.grid-button-inactive {
+	box-shadow: none;
 }
 #profilepic{
  border-radius: 50px;
- top: 6px;
- height: 40px;
- position: fixed; 
- width: 40px;
- right: 5%;
+ right: 15px;
  background-color: gray;
  border: solid 1px black;
+<<<<<<< HEAD
 z-index: 25;
 cursor: pointer;
+=======
+>>>>>>> origin/master
 }
-
 #alertbut{
  border-radius: 50px;
- top: 6px;
- height: 40px;
- position: fixed; 
- width: 40px;
- right: 10%;
  border: solid 1px black;
+<<<<<<< HEAD
  z-index: 25;
  cursor: pointer;
+=======
+ right: 125px;
 }
+ul#nav-button-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul#nav-button-list li{
+	display: inline;
+>>>>>>> origin/master
+}
+#navbar-logo {
+  height: 200%;
+  position: relative;
+  bottom: 40%;
+  left: 0%;
+  vertical-align: 20%;
+  z-index: 7;
+}
+
 
 
