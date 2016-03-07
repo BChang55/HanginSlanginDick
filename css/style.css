@@ -17,7 +17,6 @@ p.heading-text { /* Heading text within Overlay Panels */
 	height: 50%;
 }
 
-<<<<<<< HEAD
  #navbar-button{
  top: 6px;
  height: 40px;
@@ -27,13 +26,10 @@ p.heading-text { /* Heading text within Overlay Panels */
  cursor: pointer;
  }
 
- .overlay {
-=======
 /************************************
 *     Side Panel General Styling    *
 ************************************/
 .overlay {
->>>>>>> origin/master
   position: fixed;
   top: 9%;
   right: 1%;
@@ -238,19 +234,14 @@ div#grid-menu-popup {
  right: 15px;
  background-color: gray;
  border: solid 1px black;
-<<<<<<< HEAD
 z-index: 25;
 cursor: pointer;
-=======
->>>>>>> origin/master
 }
 #alertbut{
  border-radius: 50px;
  border: solid 1px black;
-<<<<<<< HEAD
  z-index: 25;
  cursor: pointer;
-=======
  right: 125px;
 }
 ul#nav-button-list {
@@ -260,7 +251,6 @@ ul#nav-button-list {
 }
 ul#nav-button-list li{
 	display: inline;
->>>>>>> origin/master
 }
 #navbar-logo {
   height: 200%;
