@@ -1,0 +1,149 @@
+.leaflet-control-mapbox-geocoder-results {
+    width: 500px;
+    position: absolute;
+    left: 26px;
+    top: 34px;
+    border-radius: 0 0 5px 5px;
+}
+.leaflet-control-mapbox-geocoder-results a, .leaflet-control-mapbox-geocoder-results span{
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: left;
+    overflow: hidden;
+    color: rgb(6, 11, 249);
+    
+}
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-results {
+    border: 1px solid #999;
+    border-color: rgba(0,0,0,.4);
+}
+
+.leaflet-bar, .leaflet-control-layers {
+    border: 1px solid #999;
+    border-color: rgba(0,0,0,.4);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-wrap {
+    background: rgba(107, 107, 107, 0.53);
+    position: absolute;
+    border: 1px solid #000;
+    border-color: rgba(0,0,0,.4);
+    overflow: hidden;
+    left: 26px;
+    height: 28px;
+    /* width: 0; */
+    top: -1px;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 0;
+    color: white;
+    z-index: 0;
+    -webkit-transition: opacity 100ms;
+    -moz-transition: opacity 100ms;
+    -o-transition: opacity 100ms;
+    transition: opacity 100ms;
+}
+.leaflet-container .leaflet-control-attribution {
+    /*background-color: rgba(255,255,255,.5);
+    margin: 0;
+    box-shadow: none;*/
+    display: none;
+}
+.mapbox-logo-true {
+    background-repeat: no-repeat;
+    background-size: 61px 19px;
+    background-image: url(../images/TillageSmall.png)
+}
+#map-container .leaflet-control.search-container .search-input {
+    border: none;
+    position: absolute;
+    left: 0;
+    line-height: 16px;
+    padding: 8px 10px;
+    border-radius: 3px 0 0 3px;
+    float: right;
+    margin-right: -1px;
+    color: #5c6370;
+    -webkit-box-shadow: inset 0 -2px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 -2px 0px rgba(0, 0, 0, 0.1);
+    width: 267px;
+    opacity: 1;
+    z-index: 30000;
+}
+
+.leaflet-control-mapbox-geocoder.active, .leaflet-control-mapbox-geocoder.active {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 35px;
+    width: 35px;
+    background-color: rgba(228, 210, 210, 0);
+    border: rgba(228, 210, 210, 0);
+}
+
+.leaflet-control-mapbox-geocoder.active .leaflet-control-mapbox-geocoder-wrap {
+    width: 1425%;
+    opacity: 1;
+    height: 100%;
+}
+
+.mapbox-icon.mapbox-icon-geocoder, .mapbox-icon.mapbox-icon-geocoder:before {
+    background-position: 0 -156px;
+    visibility: hidden;
+}
+
+.leaflet-control-mapbox-geocoder .leaflet-control-mapbox-geocoder-form input {
+    background: 0 0;
+    border: 0;
+    width: 100%;
+    padding: 13px 6px 0;
+    height: 90%;
+    outline: 0;
+    font-size: 25px;
+}
+
+.leaflet-control {
+    position: relative;
+    z-index: 7;
+    pointer-events: auto;
+    float: left;
+    clear: none;
+}
+
+.leaflet-container.dark .leaflet-control .leaflet-control-mapbox-geocoder-results a:hover, .leaflet-control-mapbox-geocoder-results a:hover {
+    background: #EDFFB8;
+    opacity: 1;
+    color: #000000;
+}
+
+.leaflet-control-zoom.leaflet-bar.leaflet-control {
+    margin-left: .25%;
+    margin-top: 40%;
+}
+
+.leaflet-top.leaflet-left {
+    height: 100%;
+    width: 100%;
+}
+
+.leaflet-container.dark .map-tooltip .close, .leaflet-control-attribution:after, .leaflet-control-layers-toggle, .leaflet-control-zoom-in, .leaflet-control-zoom-out, .leaflet-popup-close-button, .map-tooltip .close, .mapbox-icon {
+    opacity: 1;
+    background-image: url(../images/icons-000000@2x.png);
+    background-repeat: no-repeat;
+    background-size: 26px 260px;
+    zoom: 1.1;
+    border-radius: 3px;
+}
+
+.leaflet-bar a, .leaflet-control-layers-toggle, .leaflet-popup-close-button, .map-tooltip.closable .close, .mapbox-button-icon:before, .mapbox-icon {
+    content: '';
+    display: block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-color: #6EFF00;
+}
+
