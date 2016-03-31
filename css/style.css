@@ -273,17 +273,63 @@ z-index: 25
   background-color: #D3D3D3;
 }
 
-.profileback {
+.whiteback {
   position: fixed;
   top: 13%;
   height: 82%;
-  width: 90%;
+  width: 70%;
   right: 5%;
   z-index: 10;
   background-color: white;
+}
 
+.buttondrop {
+  position: fixed;
+  vertical-align: top;
+  top: 13%;
+  height: 82%;
+  width: 20%;
+  right: 75%;
+  z-index: 10;
+  background-color: white;
+  border-right: solid 1px gray;
+}
 
+.buttontab1{
+  position: fixed;
+  height: 8%;
+  width: 20%;
+  z-index: 10;
+  background-color: white;
+  border-right: solid 1px gray;
+}
 
+.buttontab2{
+  position: fixed;
+  top: 20%;
+  height: 8%;
+  width: 20%;
+  z-index: 10;
+  background-color: white;
+  border-right: solid 1px gray;
+}
+.buttontab3{
+  position: fixed;
+  top: 27%;
+  height: 8%;
+  width: 20%;
+  z-index: 10;
+  background-color: white;
+  border-right: solid 1px gray;
+}
+.buttontab4{
+  position: fixed;
+  top: 34%;
+  height: 8%;
+  width: 20%;
+  z-index: 10;
+  background-color: white;
+  border-right: solid 1px gray;
 }
 
 
